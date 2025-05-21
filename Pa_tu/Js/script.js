@@ -199,7 +199,7 @@ function playBackgroundMusic() {
   audio.loop = true;
   // Intentar reproducir inmediatamente
   audio.play().then(() => {
-    //btn.textContent = '🔊 Música';
+    //btn.textContent = '🔊 Play';
   }).catch(() => {
     // Si falla el autoplay, esperar click en el botón
     btn.textContent = '▶️ Música';

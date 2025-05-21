@@ -202,15 +202,15 @@ function playBackgroundMusic() {
     //btn.textContent = '🔊 Play';
   }).catch(() => {
     // Si falla el autoplay, esperar click en el botón
-    btn.textContent = '▶️ Música';
+    btn.textContent = '▶️ Play';
   });
   btn.onclick = () => {
     if (audio.paused) {
       audio.play();
-      btn.textContent = '🔊 Música';
+      btn.textContent = '🔊 Play';
     } else {
       audio.pause();
-      btn.textContent = '🔈 Música';
+      btn.textContent = '🔈 Play';
     }
   };
 }

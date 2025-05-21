@@ -70,7 +70,7 @@ const corazonRojo = "💘";
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Dicen que hoy es el día de regalar cartas..\n\nY esta notita es para recordarte lo mucho que me encantas 💘\n\nSé que a veces te caigo mal (nunca olvidaré que lo dijiste jaja) pero me importas más de lo que imaginas.\n\nEres la niña más hermosa del mundo!! y haces mis días perfectos con solo ver tu linda sonrisa.`;  } else {
+    text = `Dicen que hoy 20 de mayo es el día de regalar cartas..\n\nY esta notita es para recordarte lo mucho que me encantas 💘\n\nSé que a veces te caigo mal (nunca olvidaré que lo dijiste jaja) pero me importas más de lo que imaginas.\n\nEres la niña más hermosa del mundo!! y haces mis días perfectos con solo ver tu linda sonrisa.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
